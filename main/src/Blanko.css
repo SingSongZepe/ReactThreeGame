@@ -1,0 +1,51 @@
+
+.blanko {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-blanko {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: max-content;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 16px;
+    padding: 0;
+}
+
+.btn-reset {
+    background-color: #0055ff;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+
+.btn-reset {
+    scale: 0.98;
+    /* transition: ; */
+}
