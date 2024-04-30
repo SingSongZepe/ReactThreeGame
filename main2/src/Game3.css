@@ -1,0 +1,35 @@
+.game-window {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    margin: 0 auto;
+}
+
+.invaders {
+    width: 500px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+.shooter {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+.black-square {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.hidden {
+    opacity: 0.0;
+}

@@ -1,0 +1,20 @@
+
+.center {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.reset {
+    cursor: pointer;
+}
+
+.red-font {
+    color: rgb(240, 10, 10);
+}
+
+.blue-font {
+    color: rgb(10, 10, 230);
+}

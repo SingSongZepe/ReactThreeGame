@@ -1,0 +1,7 @@
+.gradient-text {
+    background: linear-gradient(to right, #ff7e5f, blue);
+    -webkit-text-fill-color: transparent; /* Safari */
+    -webkit-background-clip: text; /* Safari */
+    background-clip: text;
+    font-weight: bold;
+}
